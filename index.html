@@ -1,0 +1,37 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+
+    <title>The HTML5 Herald</title>
+    <meta name="description" content="The HTML5 Herald">
+    <meta name="author" content="SitePoint">
+
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+</head>
+
+<body>
+<div class="nav-bar"></div>
+
+<div id="app">
+
+    <div class="product">
+
+        <div class="product-image">
+            <img :src="image" />
+        </div>
+
+        <div class="product-info">
+            <h1>{{ product }}</h1>
+            <a :href="link" target="_blank">More products like this</a>
+        </div>
+
+    </div>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.13/dist/vue.js"></script>
+<script src="scripts.js"></script>
+<link rel="stylesheet" href="style.css">
+</body>
+</html>
